@@ -16,6 +16,8 @@
 * added incremental search and move to other view toolbar icon
 ```
 
+![added toolbar icon for incremental search and move to other view](https://github.com/skycc86/npp_binhex_plugin/toolbar.png)
+
 copy the respective dll file over to notepad++ plugin directory (default to C:\Program Files\Notepad++\plugins)
 restart notepad++ then u shall see additional BinHex item in the plugin menu
 
