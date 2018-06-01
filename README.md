@@ -1,8 +1,8 @@
-# npp_binhex_plugin
-notepad++ binhex plugin
+# notepad++ binhex plugin
 
-binhex plugin for bin/hex string manipulating functions, bit shifting/grouping manipulations
-can support very long string manipulation
+## binhex plugin for bin/hex string manipulating functions, bit shifting/grouping manipulations
+## can support very long string manipulation
+
 FORMAT : MSB --> LSB
 accepts prefix 0x/0b
 -----------------
