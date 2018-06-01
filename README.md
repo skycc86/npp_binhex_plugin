@@ -26,3 +26,5 @@ Version 2.0
 * maintain 0x / 0b prefix
 
 Author : skycc86
+
+dll compiled with Visual Studio 2013
