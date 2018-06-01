@@ -6,7 +6,6 @@
 * FORMAT : MSB --> LSB
 * accepts prefix 0x/0b
 
------------------
 ```
 * bin2hex/hex2bin       - conversion between hex and binary text
 * bin_invert/hex_invert - bit inversion for bin/hex text (0b1010 -> 0b0101)
