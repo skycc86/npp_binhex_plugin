@@ -9,7 +9,7 @@
 ```
 * bin2hex/hex2bin       - conversion between hex and binary text
 * bin_invert/hex_invert - bit inversion for bin/hex text (0b1010 -> 0b0101)
-* reverse	              - text reverse (abcd -> dcba)
+* reverse               - text reverse (abcd -> dcba)
 * hex_shift             - shift left/right for hex values, lose the shift out bit
 * hex_rotate            - rotate left/right for hex values, lsb become msb and vice versa
 * grouping_2/4/8/16     - grouping hex/bin string to 2/4/8/16 char
