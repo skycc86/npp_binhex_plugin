@@ -5,6 +5,9 @@
 
 * FORMAT : MSB --> LSB
 * accepts prefix 0x/0b
+* select/highlight the target text then call the function through plugin menu/shortcut key assiged
+* target text will get manipulated in place
+
 
 ```
 * bin2hex/hex2bin       - conversion between hex and binary text
@@ -18,6 +21,7 @@
 
 added toolbar icon as shown
 ![icon](https://github.com/skycc86/npp_binhex_plugin/blob/master/toolbar.jpg)
+
 
 copy the respective dll file over to notepad++ plugin directory (default to C:\Program Files\Notepad++\plugins)
 restart notepad++ then u shall see additional BinHex item in the plugin menu
