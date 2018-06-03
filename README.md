@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/skycc86/npp_binhex_plugin.svg)](https://github.com/bruderstein/nppPluginManager/releases)
 [![Github Releases](https://img.shields.io/github/downloads/skycc86/npp_binhex_plugin/latest/total.svg)](https://github.com/skycc86/npp_binhex_plugin/releases)
 
-Binhex plugin is a plugin for [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) that can be use for bin/hex string manipulating functions, bit shifting/grouping manipulations, can support very long string manipulation
+Binhex plugin is a plugin for [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) that can be use for bin/hex string manipulations such as bin hex conversion, bit shifting, grouping etc., can support very long string manipulation
 
 
 * FORMAT : MSB --> LSB
