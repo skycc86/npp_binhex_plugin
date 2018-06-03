@@ -36,4 +36,4 @@ Version 2.0
 
 Author : skycc86
 
-dll compiled with Visual Studio 2013
+dll compiled with Visual Studio 2013, using plugintemplate 3.1
