@@ -30,7 +30,7 @@ plugin menu<br/>
 ![icon](https://github.com/skycc86/npp_binhex_plugin/blob/master/binhex.png)
 
 ### Installation
-To install the binhex plugin, simply download ([release section](https://github.com/skycc86/npp_binhex_plugin/releases)) the .zip, and place the binhex.dll file in the Notepad++ plugins directory (default to C:\Program Files\Notepad++\plugins)
+To install the binhex plugin, simply download ([release section](https://github.com/skycc86/npp_binhex_plugin/releases)) the .zip, and place the binhex.dll file in your Notepad++ plugins directory (eg. C:\Program Files\Notepad++\plugins)
 
 restart notepad++ then u shall see additional BinHex item in the plugin menu
 
