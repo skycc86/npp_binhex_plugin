@@ -34,7 +34,7 @@ To install the binhex plugin, simply download ([release section](https://github.
 
 restart notepad++ then u shall see additional BinHex item in the plugin menu
 
-Version 2.0.0
+Version 2.0.0.0
 * compile for win32 and x64
 * added default shortcut key
 * added incremental search and move to other view toolbar icon
