@@ -183,7 +183,7 @@ grouping_2/4/8/16  \t- grouping hex/bin string to 2/4/8/16 char \n\n\
 \n\
 added incremental search and move to other view toolbar icon \n\
 \n\
-Version 2.0.0 \n\
+Version 2.0.0.0 \n\
 By : skycc86  @__@ \n\
 https://github.com/skycc86"), TEXT("BinHex Plugin Help"), MB_OK);
 }
