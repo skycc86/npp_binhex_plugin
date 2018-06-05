@@ -14,7 +14,7 @@ Binhex plugin is a plugin for [Notepad++](https://github.com/notepad-plus-plus/n
 
 
 ```
-* bin2hex/hex2bin       - conversion between hex and binary text
+* bin2hex/hex2bin       - conversion between hex and binary text (0xa5 -> 0b10100101)
 * bin_invert/hex_invert - bit inversion for bin/hex text (0b1010 -> 0b0101)
 * reverse               - text reverse (abcd -> dcba)
 * hex_shift             - shift left/right for hex values, lose the shift out bit
