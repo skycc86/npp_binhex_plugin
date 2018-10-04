@@ -44,7 +44,7 @@ Author : skycc86
 
 dll compiled with Visual Studio 2013, using plugintemplate 3.1
 
-#Shorcut Key
+### Shorcut Key
 User can change the shortcut key mapping anytime to their preference if the default one doesn,t suit. The shortcut key can be change as below
 goto Settings -> Shortcut Mapper
 then click on Plugin commands tab on top, then you will see list of plugin and its correspond function and shortcut key
