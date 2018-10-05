@@ -86,12 +86,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "FileDescription", "binhex plugin for Notepad++"
-            VALUE "FileVersion", "2.0.0.0"
+            VALUE "FileVersion", "2.0.0.1"
             VALUE "InternalName", "binhex.dll"
             VALUE "LegalCopyright", "Copyright 2018"
             VALUE "OriginalFilename", "binhex.dll"
             VALUE "ProductName", "binhex plugin for Notepad++"
-            VALUE "ProductVersion", "2.0.0.0"
+            VALUE "ProductVersion", "2.0.0.1"
         END
     END
     BLOCK "VarFileInfo"
