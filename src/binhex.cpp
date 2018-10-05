@@ -74,6 +74,7 @@ void commandMenuInit()
     //            );
    
 	//setCommand(0, TEXT("Hello (with dialog)"), helloDlg, NULL, false);
+	/*
 	setCommand(0, TEXT("bin2hex"), bin2hex, 'H', true, true, false, false);
 	setCommand(1, TEXT("hex2bin"), hex2bin, 'B', true, true, false, false);
 	setCommand(2, TEXT("bin_invert"), bin_invert, 'B', true, false, true, false);
@@ -85,6 +86,20 @@ void commandMenuInit()
 	setCommand(7, TEXT("hex_shift <<"), shiftl, 37, true, true, false, false);
 	setCommand(8, TEXT("hex_rotate >>"), rotr, 39, true, false, true, false);
 	setCommand(9, TEXT("hex_rotate <<"), rotl, 37, true, false, true, false);
+	setCommand(10, TEXT("---"), NULL, NULL, false, false, false, false);
+	*/
+
+	setCommand(0, TEXT("bin2hex"), bin2hex, NULL, false, false, false, false);
+	setCommand(1, TEXT("hex2bin"), hex2bin, NULL, false, false, false, false);
+	setCommand(2, TEXT("bin_invert"), bin_invert, NULL, false, false, false, false);
+	setCommand(3, TEXT("hex_invert"), hex_invert, NULL, false, false, false, false);
+	setCommand(4, TEXT("reverse"), reverse, NULL, false, false, false, false);
+
+	setCommand(5, TEXT("---"), NULL, NULL, false, false, false, false);
+	setCommand(6, TEXT("hex_shift >>"), shiftr, NULL, false, false, false, false);
+	setCommand(7, TEXT("hex_shift <<"), shiftl, NULL, false, false, false, false);
+	setCommand(8, TEXT("hex_rotate >>"), rotr, NULL, false, false, false, false);
+	setCommand(9, TEXT("hex_rotate <<"), rotl, NULL, false, false, false, false);
 	setCommand(10, TEXT("---"), NULL, NULL, false, false, false, false);
 
 	setCommand(11, TEXT("grouping_2"), grouping_2, '2', true, false, true, false);
@@ -177,13 +192,15 @@ accepts prefix 0x/0b \n\
 bin2hex/hex2bin  \t- conversion between hex and binary text \n\
 bin_invert/hex_invert - bit inversion for bin/hex text  (0b1010 -> 0b0101)\n\
 reverse	 \t- text reverse (abcd -> dcba)\n\
-hex_shift   \t\t- shift left/right for hex string, lose the shift out bit \n\
-hex_rotate  \t- rotate left/right for hex string, lsb --> msb and vice versa \n\
-grouping_2/4/8/16  \t- grouping hex/bin string to 2/4/8/16 char \n\n\
+hex_shift   \t- shift left/right for hex string, lose the shift out bit\n\
+          \t\t (0x8421 -> 0x4210)\n\
+hex_rotate  \t- rotate left/right for hex string, lsb --> msb and vice\n\
+          \t\t  versa (0x8421 -> 0xc210)\n\
+grouping_2/4/8/16 - grouping hex/bin string to 2/4/8/16 char \n\n\
 \n\
 added incremental search and move to other view toolbar icon \n\
 \n\
-Version 2.0.0.0 \n\
+Version 2.0.0.1 \n\
 By : skycc86  @__@ \n\
 https://github.com/skycc86"), TEXT("BinHex Plugin Help"), MB_OK);
 }
