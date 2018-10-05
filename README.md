@@ -40,9 +40,9 @@ Version 2.0.0.0
 * added incremental search and move to other view toolbar icon
 * maintain 0x / 0b prefix
 
-Author : skycc86
+Version 2.0.0.1
+* remove default shortcut mapping that clash with 
 
-dll compiled with Visual Studio 2013, using plugintemplate 3.1
 
 ### Shorcut Key
 * User can change the shortcut key mapping anytime to their preferencw.
@@ -50,3 +50,7 @@ dll compiled with Visual Studio 2013, using plugintemplate 3.1
 * goto Settings -> Shortcut Mapper
 * then click on Plugin commands tab on top, then you will see list of plugin and its correspond function and shortcut key
 look for binhex.dll, just click on the shortcut key you wish to change then save it
+
+Author : skycc86
+
+development done in Visual Studio 2013, using plugintemplate 3.1
