@@ -17,8 +17,8 @@ Binhex plugin is a plugin for [Notepad++](https://github.com/notepad-plus-plus/n
 * bin2hex/hex2bin       - conversion between hexadecimal and binary base text (0xa5 -> 0b10100101)
 * bin_invert/hex_invert - bit inversion for bin/hex text (0b1010 -> 0b0101)
 * reverse               - text reverse (abcd -> dcba)
-* hex_shift             - shift left/right for hex values, lose the shift out bit
-* hex_rotate            - rotate left/right for hex values, lsb become msb and vice versa
+* hex_shift             - shift left/right for hex values, lose the shift out bit (0x8421->0x4210)
+* hex_rotate            - rotate left/right for hex values, lsb become msb and vice versa (0x8421->0xc210)
 * grouping_2/4/8/16     - grouping hex/bin string to 2/4/8/16 char
 * added incremental search and move to other view toolbar icon
 ```
@@ -45,7 +45,8 @@ Author : skycc86
 dll compiled with Visual Studio 2013, using plugintemplate 3.1
 
 ### Shorcut Key
-User can change the shortcut key mapping anytime to their preference if the default one doesn,t suit. The shortcut key can be change as below
-goto Settings -> Shortcut Mapper
-then click on Plugin commands tab on top, then you will see list of plugin and its correspond function and shortcut key
+* User can change the shortcut key mapping anytime to their preferencw.
+* The shortcut key can be change as below
+* goto Settings -> Shortcut Mapper
+* then click on Plugin commands tab on top, then you will see list of plugin and its correspond function and shortcut key
 look for binhex.dll, just click on the shortcut key you wish to change then save it
