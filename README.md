@@ -41,7 +41,7 @@ Version 2.0.0.0
 * maintain 0x / 0b prefix
 
 Version 2.0.0.1
-* remove default shortcut mapping that clash with 
+* remove default shortcut mapping that clash with npp default shortcut
 
 
 ### Shorcut Key
